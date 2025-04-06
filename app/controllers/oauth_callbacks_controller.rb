@@ -1,5 +1,5 @@
 class OauthCallbacksController < ApplicationController
-  skip_before_action :require_authentication, only: %i[google failure google_auth]
+  skip_before_action :require_authentication, :verify_authenticity_token
 
   def google
     @user = User.find_or_create_from_google_auth(auth_hash)
@@ -17,7 +17,7 @@ class OauthCallbacksController < ApplicationController
   end
 
   def google_auth
-    redirect_to "/auth/google_oauth2"
+    redirect_to "/auth/google_oauth2", allow_other_host: true
   end
 
   private
