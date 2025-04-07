@@ -2,9 +2,8 @@ Rails.application.routes.draw do
   resource :session
   resources :passwords, param: :token
 
-  get "/auth/:provider/callback", to: "oauth_callbacks#google"
-  get "/auth/failure", to: "oauth_callbacks#failure"
-  get "/auth/google", to: "oauth_callbacks#google_auth", as: "google_auth"
+  get "auth/:provider/callback", to: "oauth_callbacks#omniauth_callback"
+  get "auth/failure", to: "oauth_callbacks#failure"
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

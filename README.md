@@ -102,3 +102,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [Rails Team](https://rubyonrails.org/) for the new authentication generator in Rails 8
 - [OmniAuth](https://github.com/omniauth/omniauth) for the flexible authentication framework
 - [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
+
