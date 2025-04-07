@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 <p align="center">  
-  <img src="https://github.com/user-attachments/assets/84e35ec3-bf3d-4fb5-afff-82e3e51dc337" alt="Rails + Google OAuth" width="300">
+  <img src="https://github.com/user-attachments/assets/04ae00d6-19e7-4cf1-8d30-fea2ee7a7dd3" alt="Rails + Google OAuth" width="300">
 </p>
 
 ## 🚀 Overview
