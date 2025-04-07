@@ -6,8 +6,8 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC.svg)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/583231/235327923-6b9c36ec-9021-4332-8fb3-ae3b0b7921ae.png" alt="Rails + Google OAuth" width="300">
+<p align="center">  
+  <img src="https://github.com/user-attachments/assets/84e35ec3-bf3d-4fb5-afff-82e3e51dc337" alt="Rails + Google OAuth" width="300">
 </p>
 
 ## 🚀 Overview
@@ -102,3 +102,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [Rails Team](https://rubyonrails.org/) for the new authentication generator in Rails 8
 - [OmniAuth](https://github.com/omniauth/omniauth) for the flexible authentication framework
 - [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
+
