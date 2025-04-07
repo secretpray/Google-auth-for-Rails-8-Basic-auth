@@ -7,14 +7,15 @@ class User < ApplicationRecord
 
   normalizes :email_address, with: ->(e) { e.strip.downcase }
 
-  def self.find_or_create_from_google_auth(auth)
+  def self.find_or_create_from_auth(auth)
     where(email_address: auth.info.email).first_or_initialize.tap do |user|
       user.email_address = auth.info.email
       user.password = SecureRandom.hex(20) if user.new_record?
-      user.first_name = auth.info.first_name if user.respond_to?(:first_name)
+      user.first_name = auth.info.first_name || auth.info.name if user.respond_to?(:first_name)
       user.last_name = auth.info.last_name if user.respond_to?(:last_name)
-      user.google_uid = auth.uid
-      user.google_token = auth.credentials.token
+      user.provider = auth.provider
+      user.provider_uid = auth.uid
+      user.provider_token = auth.credentials.token
       user.save!
       user.attach_avatar_if_available(auth)
       user
