@@ -17,7 +17,7 @@ This project demonstrates how to integrate Google OAuth authentication with Rail
 ## ✨ Features
 
 - Rails 8's built-in authentication system
-- Google OAuth integration
+- Google/Github OAuth integration
 - Avatar retrieval from Google account
 - Responsive design with Tailwind CSS 4
 - PostgreSQL database backend
