@@ -1,4 +1,4 @@
-# Google Auth for Rails 8 Basic Authentication
+# Google and Github OmniAuth for Rails 8 Basic Authentication
 
 [![Ruby](https://img.shields.io/badge/Ruby-3.3.6-CC342D.svg)](https://www.ruby-lang.org/)
 [![Rails](https://img.shields.io/badge/Rails-8.0.2-CC0000.svg)](https://rubyonrails.org/)
