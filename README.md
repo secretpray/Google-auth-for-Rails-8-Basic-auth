@@ -62,6 +62,9 @@ Add the following to your credentials file:
 google:
   client_id: your_google_client_id
   client_secret: your_google_client_secret
+github:
+  client_id: your_github_client_id
+  client_secret: your_github_client_secret
 ```
 
 ## 🚦 Usage
