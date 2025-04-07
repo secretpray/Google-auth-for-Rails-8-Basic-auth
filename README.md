@@ -81,7 +81,7 @@ Visit `http://localhost:3000` in your browser and you'll see the sign-in page wi
 
 This application extends Rails 8's built-in authentication system by adding OAuth capabilities:
 
-- OmniAuth is used to handle the Google authentication flow
+- OmniAuth is used to handle the Google/Github authentications flow
 - User records are created or retrieved based on the Google account email
 - Profile information and avatars are pulled from Google when available
 - The existing Rails 8 session management is utilized for authenticated users
